@@ -17,7 +17,7 @@ public class Main {
         v3.addNeighbour(v4);
 
         DepthFirstSearch dfs = new DepthFirstSearch();
-        dfs.find(v1, v4);
+        dfs.findPath(v1, v4);
 
     }
 

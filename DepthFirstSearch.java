@@ -4,7 +4,7 @@ import java.util.Stack;
 
 public class DepthFirstSearch {
 
-    public void find(Vertex rootVertex, Vertex target) {
+    public void findPath(Vertex rootVertex, Vertex target) {
         Stack<Vertex> stack = new Stack<>();
         stack.push(rootVertex);
         while (!stack.isEmpty()) {
